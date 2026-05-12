@@ -1,0 +1,1 @@
+export async function GET(){const html=`<html><body><h1>PCOP Executive Report</h1><p>Generated report endpoint. Use browser print/PDF or connect Puppeteer/React-PDF in production.</p></body></html>`;return new Response(html,{headers:{'content-type':'text/html'}})}

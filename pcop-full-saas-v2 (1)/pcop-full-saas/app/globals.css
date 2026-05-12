@@ -1,0 +1,5 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{color-scheme:light} body{background:#F7F4EE;color:#2F3437} *{box-sizing:border-box} .glass{background:rgba(255,255,255,.86);backdrop-filter:blur(18px)}
+@media print{.no-print{display:none!important}.print-card{box-shadow:none!important;border:0!important}.print-bg{background:white!important}}
