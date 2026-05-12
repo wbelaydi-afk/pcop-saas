@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; }
+body { margin: 0; background: #F7F4EE; color: #2F3437; }
+.print-doc { background:white; color:#2F3437; padding:42px; width:794px; min-height:1123px; }
+@media print { .no-print { display:none!important; } body { background:white; } }
